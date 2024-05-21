@@ -1,6 +1,6 @@
 
 require('./settings')
-const { default: ElgazarBotConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: Njsjijkr, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`${sessionName}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
@@ -69,7 +69,7 @@ if (global.db) setInterval(async () => {
   }, 30 * 1000)
 
 async function startElgazarBot() {
-    const ElgazarBot = ElgazarBotConnect({
+    const bdkjkdn = ElgazarBotConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['Cheems Bot MD','Safari','1.0.0'],
